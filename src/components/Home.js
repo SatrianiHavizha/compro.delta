@@ -7,8 +7,8 @@ function Home() {
             <Container>
                 <Row className='display-flex'>
                     <Col className='text-white text-left'>
-                        <h1>The IT Edge You Need And Beyond IT Boundaries</h1>
-                        <p className='text-white-50'>Make your journey to business success smoother with innovative, reliable and customised IT solutions, because we understand that every step towards success requires a strong and reliable technological foundation.</p>
+                        <h1 class="animate__animated animate__slideInLeft">The IT Edge You Need And Beyond IT Boundaries</h1>
+                        <p className='text-white-50 animate__animated animate__fadeInUp animate__delay-1s'>Make your journey to business success smoother with innovative, reliable and customised IT solutions, because we understand that every step towards success requires a strong and reliable technological foundation.</p>
                     </Col>
                 </Row>
             </Container>

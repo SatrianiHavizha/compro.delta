@@ -3,7 +3,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  padding-top: 150px;
+  padding-top: 100px;
 }
 
 .home h1 {
@@ -64,10 +64,13 @@
   color: white;
   margin-top: 7px;
   font-weight: bold;
+  text-decoration: underline;
+  text-underline-offset: 10px;
 }
 
 .footer p {
   color: white;
+  margin-top: 50px;
 }
 
 
