@@ -2,6 +2,8 @@ import './App.css';
 import NavbarWeb from './components/NavbarWeb';
 import Home from './components/Home';
 import About from './components/About';
+import More from './components/More';
+import Prinsip from './components/Prinsip';
 import Services from './components/Services';
 import Footer from './components/Footer';
 
@@ -11,6 +13,8 @@ function App() {
       <NavbarWeb />
       <Home />
       <About />
+      <More />
+      <Prinsip />
       <Services />
 
       <Footer />

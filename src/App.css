@@ -73,6 +73,45 @@
   margin-top: 50px;
 }
 
+.more h2 {
+  font-weight: bold;
+  color: darkslategray;
+  padding-top: 70px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.more h3 {
+  font-weight: bold;
+}
+
+.more h5 {
+  margin-top: 40px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
+
+.more p {
+  color: gray;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.prinsip {
+  background-color: #252626;
+}
+
+.prinsip h2 {
+  color: white;
+  font-weight: bold;
+  padding-top: 80px;
+}
+
+.prinsip p {
+  color: darkgray;
+  font-size: 18px;
+}
 
 
 
