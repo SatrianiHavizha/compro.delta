@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react'
 
 const ProgressBar = () => {
-    const [scrollPercentage, setScrollPercentage] = useState(20);
+    const [scrollPercentage, setScrollPercentage] = useState(0);
 
     useEffect(()=>{
 
