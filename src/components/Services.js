@@ -12,10 +12,10 @@ const Services = () => {
             </Col>
             <Row>
                <Col>
-               <CardGroup>
+               <CardGroup >
                   <Card className='mx-1 mb-2' style={{ 
                      height:"17em"
-                   }}>
+                   }} data-aos="zoom-in-up">
                      <Card.Img variant="top" src="./assets/img/cyber security.jpg" />
                      <Card.Body>
                         <Card.Title className='text-center'>Cyber Security</Card.Title>
@@ -23,7 +23,7 @@ const Services = () => {
                   </Card>
                   <Card className='mx-1 mb-2' style={{ 
                      height:"17em"
-                   }}>
+                   }} data-aos="zoom-in-up" data-aos-delay="100">
                      <Card.Img variant="top" src="./assets/img/IoT.jpg" />
                      <Card.Body>
                         <Card.Title className='text-center'>IoT</Card.Title>                      
@@ -31,7 +31,7 @@ const Services = () => {
                   </Card>
                   <Card className='mx-1 mb-2' style={{ 
                      height:"17em"
-                   }}>
+                   }} data-aos="zoom-in-up" data-aos-delay="200">
                      <Card.Img variant="top" src="./assets/img/Network.jpg" />
                      <Card.Body>
                         <Card.Title className='text-center'>Network</Card.Title>
@@ -39,7 +39,7 @@ const Services = () => {
                   </Card>
                   <Card className='mx-1 mb-2' style={{ 
                      height:"17em"
-                   }}>
+                   }} data-aos="zoom-in-up" data-aos-delay="300">
                      <Card.Img variant="top" src="./assets/img/CS.jpg" />
                      <Card.Body>
                         <Card.Title className='text-center'>Cloud Service</Card.Title>
@@ -47,7 +47,7 @@ const Services = () => {
                   </Card>
                   <Card className='mx-1 mb-2' style={{ 
                      height:"17em"
-                   }}>
+                   }} data-aos="zoom-in-up" data-aos-delay="400">
                      <Card.Img variant="top" src="./assets/img/TC.jpg" />
                      <Card.Body>
                         <Card.Title className='text-center'>Technology Consultant</Card.Title>

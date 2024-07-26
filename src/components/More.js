@@ -12,15 +12,15 @@ const More = () => {
                 </Col>
             </Row>
             <Row>
-                <Col>
+                <Col data-aos="fade-up">
                     <h5>Company Focus</h5>
                     <p>We are committed to providing innovative information and communication technology solutions, designed to meet the evolving needs and challenges of today’s digital era.</p>
                 </Col>
-                <Col>
+                <Col data-aos="fade-up" data-aos-delay="200">
                     <h5>Company Vision</h5>
                     <p>To become a trusted ICT (Information Communication Technology) by providing a complete range of technology services.</p>
                 </Col>
-                <Col>
+                <Col data-aos="fade-up" data-aos-delay="300">
                     <h5>Company Mission</h5>
                     <p>Committed to providing a complete range of technology by delivering the latest technology solutions, developing innovative products and high quality services to fulfil market demands.</p>
                 </Col>

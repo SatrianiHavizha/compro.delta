@@ -10,7 +10,7 @@ const Prinsip = () => {
                         <h2>Our Working Principle</h2>
                     </Col>
                 </Row>
-                <Row >
+                <Row data-aos="fade-right">
                     <Col className='pt-3 pb-2'>
                         <Card style={{ width: '40rem', backgroundColor: "darkslategrey" }}>
                             <Card.Body>
@@ -22,7 +22,7 @@ const Prinsip = () => {
                         </Card>
                     </Col>
                 </Row>
-                <Row>
+                <Row data-aos="fade-right">
                     <Col className='pb-2'>
                         <Card style={{ width: '40rem', backgroundColor: "darkslategrey" }}>
                             <Card.Body>
@@ -34,7 +34,7 @@ const Prinsip = () => {
                         </Card>
                     </Col>
                 </Row>
-                <Row >
+                <Row data-aos="fade-right">
                     <Col>
                         <Card style={{ width: '40rem', backgroundColor: "darkslategrey" }}>
                             <Card.Body>

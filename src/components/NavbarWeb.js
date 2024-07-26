@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Nav, Navbar, NavDropdown, Image } from 'react-bootstrap'
+import ProgressBar from './ProgressBar';
 
 function NavbarWeb() {
   return (
@@ -23,7 +24,9 @@ function NavbarWeb() {
           </Navbar.Collapse>
         </Container>
       </Navbar>
+      <ProgressBar />
     </div>
+    
   );
 }
 
