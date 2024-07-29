@@ -1,15 +1,20 @@
 import React from 'react'
-import { Col, Container, Row } from 'react-bootstrap'
+import { Col, Container, Button, Row } from 'react-bootstrap'
 
 function Home() {
     return (
         <div className='home min-vh-100' id='home'>
             <Container>
                 <Row className='display-flex'>
-                    <Col className='text-white text-left'>
-                        <h1 class="animate__animated animate__slideInLeft">The IT Edge You Need And Beyond IT Boundaries</h1>
-                        <p className='text-white-50 animate__animated animate__fadeInUp animate__delay-1s'>Make your journey to business success smoother with innovative, reliable and customised IT solutions, because we understand that every step towards success requires a strong and reliable technological foundation.</p>
+                    <Col className='text-white text-center'>
+                        <h1 class="animate__animated animate__fadeInUp">Social Media</h1>
+                        <h2 class="animate__animated animate__fadeInUp">Management Service</h2>
+                        <p className='animate__animated animate__fadeInUp animate__delay-1s'>Explore the power of AI in social media support</p>
+                        {/* <Button variant="primary">Go somewhere</Button> */}
                     </Col>
+                </Row>
+                <Row>
+                   
                 </Row>
             </Container>
         </div>

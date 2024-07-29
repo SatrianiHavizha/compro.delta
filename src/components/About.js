@@ -6,20 +6,31 @@ function About() {
     <div className='about min-vh-100' id='about'>
       <Container>
         <Row>
-          <Col className='text-white' >
-            <h1>
+          <Col>
+            <h1 data-aos="fade-up">
               About Us
             </h1>
-            <p data-aos="fade-right">A place where imagination meets technology to create a bright future. We are not just another IT company. We are tireless innovators, always looking for ways to change the world through technology.
-
-              We believe that every challenge is an opportunity for growth. With a team of passionate experts, we are committed to delivering IT solutions that not only solve problems, but also inspire change. From revolutionary software development to complex system integration, we are ready to help you realise your vision.
-
-              However, our success lies not only in the advanced technology we offer. We build strong relationships with our customers, fuelled by values such as integrity, diversity, and a relentless dedication to exceptional customer service.
-
-              Let us together explore the infinite world of technological innovation. Join us for a future filled with incredible opportunities and achievements.</p>
+            <p data-aos="fade-up" data-aos-delay="200">Zerphius Corporation is a leading Japanese company in the social media and technology
+              sector. It operates the popular messaging app "Line," which has become one of the most
+              widely used communication tools in Japan and several other Asian countries.
+              A social media company that offers management services and leverages AI
+              technology provides tools and solutions to help businesses optimize their social
+              media presence, analyze performance, and engage with their audience more
+              effectively.</p>
           </Col>
+        </Row>
+        <Row style={{ marginLeft:'25%' }}> 
           <Col>
-              <Image src="assets/img/about.png" width="85%" data-aos="fade-left"/>           
+            <h2 data-aos="fade-up">
+              More About Us
+            </h2>
+            <p data-aos="fade-up" data-aos-delay="200">
+              Social AI Solutions Inc. is a cutting-edge technology company specializing in social
+              media management services powered by advanced artificial intelligence (AI). The
+              company offers a comprehensive suite of tools designed to help businesses of all
+              sizes enhance their social media strategies, streamline content creation, and
+              maximize engagement.
+            </p>
           </Col>
         </Row>
       </Container>
