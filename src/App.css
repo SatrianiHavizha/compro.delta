@@ -73,7 +73,14 @@
   padding-top: 90px;
 }
 
+.services h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+
 .services p {
+  text-align: justify;
   font-size: 20px;
 }
 
@@ -82,6 +89,7 @@
 }
 
 .footer h5 {
+  opacity: 70%;
   color: black;
   font-size: 20px;
   margin-top: 7px;

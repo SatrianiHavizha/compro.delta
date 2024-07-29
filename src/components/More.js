@@ -8,7 +8,6 @@ const More = () => {
                 <Row>
                     <Col>
                         <h2></h2>
-                        {/* <h3>About Our Company</h3> */}
                     </Col>
                 </Row>
                 <Row>
@@ -23,7 +22,7 @@ const More = () => {
                         </Card>
                     </Col>
                     <Col data-aos="fade-up" data-aos-delay="200">
-                    <Card style={{ width: '30rem', backgroundColor: "#05a5df" }}>
+                    <Card style={{ width: '35rem', backgroundColor: "#05a5df" }}>
                         <CardBody>
                         <h5><i class="fa-solid fa-bullseye"></i> Mission Statement</h5>
                         <p>Our mission is to create a platform that enables seamless communication, fosters genuine
