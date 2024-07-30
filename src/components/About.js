@@ -10,6 +10,7 @@ function About() {
             <h1 data-aos="fade-up">
               About Us
             </h1>
+            <p className='text-black-50' data-aos="fade-up" data-aos-delay="200">Overview</p>
             <p data-aos="fade-up" data-aos-delay="200">Zerphius Corporation is a leading Japanese company in the social media and technology
               sector. It operates the popular messaging app "Line," which has become one of the most
               widely used communication tools in Japan and several other Asian countries.

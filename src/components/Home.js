@@ -1,21 +1,23 @@
 import React from 'react'
-import { Col, Container, Button, Row } from 'react-bootstrap'
+import { Col, Container, Form, Row, Button } from 'react-bootstrap'
 
 function Home() {
     return (
         <div className='home min-vh-100' id='home'>
             <Container>
-                <Row className='display-flex'>
+                <Row>
                     <Col className='text-white text-center'>
                         <h1 class="animate__animated animate__fadeInUp">Social Media</h1>
                         <h2 class="animate__animated animate__fadeInUp">Management Service</h2>
-                        <p className='animate__animated animate__fadeInUp animate__delay-1s'>Explore the power of AI in social media support</p>
-                        {/* <Button variant="primary">Go somewhere</Button> */}
+                        <p className='text-black-50 animate__animated animate__fadeInUp animate__delay-1s'>Explore the power of AI in social media support</p>
                     </Col>
                 </Row>
-                <Row>
-                   
-                </Row>
+                <div className='form-container'>
+                    <Form className="shadow animate__animated animate__fadeInUp" style={{ width: "30%", marginTop: "20px", margin: "auto" }}>
+                        <Form.Control type="text" placeholder="Search Here.." />
+                    </Form>
+                    <Button style={{ width: "15%", marginTop: "20px", backgroundColor: "black" }} className="shadow animate__animated animate__fadeInUp animate__delay-1s">Get Started</Button>
+            </div>
             </Container>
         </div>
     )

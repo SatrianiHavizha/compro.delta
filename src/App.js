@@ -5,6 +5,7 @@ import Home from './components/Home';
 import About from './components/About';
 import More from './components/More';
 import Services from './components/Services';
+import Catalog from './components/Catalog';
 import Footer from './components/Footer';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <More />
       <About />
       <Services />
+      <Catalog />
 
       <Footer />
     </div>
