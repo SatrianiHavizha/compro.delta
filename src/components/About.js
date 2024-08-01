@@ -3,7 +3,7 @@ import { Col, Container, Row, Image } from 'react-bootstrap'
 
 function About() {
   return (
-    <div className='about min-vh-100' id='about'>
+    <div className='about min-vh-100'>
       <Container>
         <Row>
           <Col>

@@ -3,7 +3,7 @@ import { Container, Col, Image, Row, Card, CardGroup } from 'react-bootstrap'
 
 const Services = () => {
    return (
-      <div className='services min-vh-100 d-flex' fluid id='services'>
+      <div className='services min-vh-100 d-flex' fluid>
          <Container>
             <Row>
                <Col>

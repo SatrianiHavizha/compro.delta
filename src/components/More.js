@@ -3,7 +3,7 @@ import { Card, CardBody, Col, Container, Row } from 'react-bootstrap'
 
 const More = () => {
     return (
-        <div className='more pt-3' id='more'>
+        <div className='more pt-3'>
             <Container>
                 <Row>
                     <Col data-aos="fade-up">

@@ -13,7 +13,7 @@ function Home() {
                     </Col>
                 </Row>
                 <div className='form-container'>
-                    <Form className="shadow animate__animated animate__fadeInUp" style={{ width: "30%", marginTop: "20px", margin: "auto" }}>
+                    <Form className="shadow animate__animated animate__fadeInUp" style={{ width: "30%", margin: "auto" }}>
                         <Form.Control type="text" placeholder="Search Here.." />
                     </Form>
                     <Button style={{ width: "15%", marginTop: "20px", backgroundColor: "black" }} className="shadow animate__animated animate__fadeInUp animate__delay-1s">Get Started</Button>
