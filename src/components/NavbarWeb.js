@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Nav, Navbar, Image } from 'react-bootstrap'
 import ProgressBar from './ProgressBar';
 
+
 function NavbarWeb() {
   return (
     <div className='sticky-top'>

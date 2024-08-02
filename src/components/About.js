@@ -20,7 +20,7 @@ function About() {
               effectively.</p>
           </Col>
         </Row>
-        <Row style={{ marginLeft:'25%' }}> 
+        <Row> 
           <Col>
             <h2 data-aos="fade-up">
               More About Us

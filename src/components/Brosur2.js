@@ -7,7 +7,7 @@ const Brosur2 = () => {
             <Container>
                 <Row className='flex'>
                     <Col>
-                            <Card style={{ width: '70%' }} className='shadow mx-auto' data-aos="fade-up">
+                            <Card style={{ width: '70%' }} className='shadow mx-auto animate__animated animate__fadeInUp'>
                                 <Card.Img src="./assets/Brosur/1/T1.jpg" className="img-thumbnail" />
                             </Card>
                             <Card style={{ width: '70%' }} className='shadow mx-auto mt-5' data-aos="fade-up" data-aos-delay="200">

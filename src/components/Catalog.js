@@ -1,7 +1,10 @@
 import React from 'react'
 import { CardGroup, Col, Container, Row, Card, Button } from 'react-bootstrap'
+import { useNavigate } from 'react-router-dom'
 
 const Catalog = () => {
+    const navigate = useNavigate()
+
     return (
         <div className='catalog pt-5 pb-5'>
             <Container>
@@ -16,13 +19,13 @@ const Catalog = () => {
                         <Card style={{ width: '20rem' }} className='shadow mx-4' data-aos="fade-up">
                             <Card.Img src="./assets/Brosur/TB1-.jpg" className="img-thumbnail"/>
                             <Card.Body>
-                                <Button variant="primary" className='mt-3'>See Brochure</Button>
+                                <Button onClick={() => navigate('/BrosurT')}variant="primary" className='mt-3'>See More</Button>
                             </Card.Body>
                         </Card>
                         <Card style={{ width: '20rem' }} className='shadow mx-4' data-aos="fade-up" data-aos-delay="200">
                             <Card.Img src="./assets/Brosur/T1-.jpg" className="img-thumbnail"/>
                             <Card.Body>
-                                <Button variant="primary" className='mt-3'>See Brochure</Button>
+                                <Button onClick={() => navigate('/BrosurTB')}variant="primary" className='mt-3'>See More</Button>
                             </Card.Body>
                         </Card>
                     </CardGroup>

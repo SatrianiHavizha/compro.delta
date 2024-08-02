@@ -1,11 +1,11 @@
-.home{
+.home1{
   padding-top: 140px;
   /* background-image: url('../public/assets/img/1.png'); */
   background-size: cover;
   background-position-y: center;
 }
 
-.home h1 {
+.home1 h1 {
   color: black;
   font-size: 40px;
   font-weight: bold;
@@ -13,7 +13,7 @@
   font-family: "Poppins", sans-serif;
 }
 
-.home h2 {
+.home1 h2 {
   color: black;
   font-weight: bold;
   font-size: 40px;
@@ -21,7 +21,7 @@
   font-family: "Poppins", sans-serif;
 }
 
-.home p {
+.home1 p {
   color: black;
   width: 100%;
   --animation-delay: 0.9s;

@@ -1,9 +1,9 @@
 import React from 'react'
 import { Col, Container, Form, Row, Button } from 'react-bootstrap'
 
-function Home() {
+function Home1() {
     return (
-        <div className='home min-vh-100' id='home'>
+        <div className='home1 min-vh-100' id="home">
             <Container>
                 <Row>
                     <Col className='text-white text-center'>
@@ -23,4 +23,4 @@ function Home() {
     )
 }
 
-export default Home
+export default Home1
