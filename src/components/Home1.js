@@ -16,11 +16,11 @@ const Home1 = () => {
                 </Row>
                 <Row className="justify-content-center mt-4">
                     <Col xs={10} sm={8} md={6} lg={4} className='form-container'>
-                        <Form className="shadow animate__animated animate__fadeInUp" style={{ margin: "auto" }}>
+                        <Form className="shadow animate__animated animate__fadeInUp" style={{ margin: "auto", fontFamily: "Poppins" }}>
                             <Form.Control type="text" placeholder="Search Here.." />
                         </Form>
                         <Button 
-                            style={{ width: "60%", marginTop: "20px", backgroundColor: "black" }} 
+                            style={{ width: "60%", marginTop: "20px", backgroundColor: "black", fontFamily: "Poppins" }} 
                             className="shadow animate__animated animate__fadeInUp animate__delay-1s"
                         >
                             Get Started

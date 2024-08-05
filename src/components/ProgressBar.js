@@ -29,7 +29,7 @@ const ProgressBar = () => {
 
   return (
     <div id='progress-container' style={{ 
-        height:"5px",
+        height:"7px",
         width:"100%",
         backgroundColor:"transparant",
         position:"fixed"

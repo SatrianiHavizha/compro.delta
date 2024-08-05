@@ -18,15 +18,15 @@ const Catalog = () => {
                     <CardGroup>
                         <Card className='shadow mx-2' data-aos="fade-up">
                             <Card.Img src="./assets/Brosur/TB1-.jpg" className="img-thumbnail"/>
-                            <Card.Body>
-                                <Card.Title style={{ fontFamily: "Poppins" }}>Theridion Brochure</Card.Title>
+                            <Card.Body style={{ fontFamily: "Poppins" }}>
+                                <Card.Title>Theridion Brochure</Card.Title>
                                 <Button onClick={() => navigate('/BrosurT')} variant="dark" className='mt-3'>Data here</Button>
                             </Card.Body>
                         </Card>
                         <Card className='shadow mx-2' data-aos="fade-up" data-aos-delay="200">
                             <Card.Img src="./assets/Brosur/T1-.jpg" className="img-thumbnail"/>
-                            <Card.Body>
-                                <Card.Title style={{ fontFamily: "Poppins" }}>Countrywide Filtering Theridion</Card.Title>
+                            <Card.Body style={{ fontFamily: "Poppins" }}>
+                                <Card.Title>Countrywide Filtering Theridion</Card.Title>
                                 <Button onClick={() => navigate('/BrosurTB')} variant="dark" className='mt-3'>Data here</Button>
                             </Card.Body>
                         </Card>
