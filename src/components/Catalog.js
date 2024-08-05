@@ -6,26 +6,28 @@ const Catalog = () => {
     const navigate = useNavigate()
 
     return (
-        <div className='catalog pt-5 pb-5'>
+        <div className='catalog pt-5 pb-5' id='catalog'>
             <Container>
                 <Row>
-                    <Col>
+                    <Col className='pt-5'>
                         <h1 data-aos="fade-up">Featured Product</h1>
                         <p className='text-black-50' data-aos="fade-up" data-aos-delay="200">Zerphius AI</p>
                     </Col>
                 </Row>
                 <Row className='mt-5'>
                     <CardGroup>
-                        <Card style={{ width: '20rem' }} className='shadow mx-4' data-aos="fade-up">
+                        <Card className='shadow mx-2' data-aos="fade-up">
                             <Card.Img src="./assets/Brosur/TB1-.jpg" className="img-thumbnail"/>
                             <Card.Body>
-                                <Button onClick={() => navigate('/BrosurT')}variant="primary" className='mt-3'>See More</Button>
+                                <Card.Title style={{ fontFamily: "Poppins" }}>Theridion Brochure</Card.Title>
+                                <Button onClick={() => navigate('/BrosurT')} variant="dark" className='mt-3'>Data here</Button>
                             </Card.Body>
                         </Card>
-                        <Card style={{ width: '20rem' }} className='shadow mx-4' data-aos="fade-up" data-aos-delay="200">
+                        <Card className='shadow mx-2' data-aos="fade-up" data-aos-delay="200">
                             <Card.Img src="./assets/Brosur/T1-.jpg" className="img-thumbnail"/>
                             <Card.Body>
-                                <Button onClick={() => navigate('/BrosurTB')}variant="primary" className='mt-3'>See More</Button>
+                                <Card.Title style={{ fontFamily: "Poppins" }}>Countrywide Filtering Theridion</Card.Title>
+                                <Button onClick={() => navigate('/BrosurTB')} variant="dark" className='mt-3'>Data here</Button>
                             </Card.Body>
                         </Card>
                     </CardGroup>
