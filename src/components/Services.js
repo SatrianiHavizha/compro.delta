@@ -3,12 +3,12 @@ import { Container, Col, Image, Row, Card } from 'react-bootstrap';
 
 const Services = () => {
   return (
-    <div className='services min-vh-100 d-flex' id='services'>
+    <div className='services pb-5 d-flex' id='services'>
       <Container>
         <Row className="justify-content-center">
-          <Col xs={12} className="text-center pt-5">
+          <Col xs={12} className="text-center">
             <h1 data-aos="fade-up">Our Services</h1>
-            <p className='text-black-50' data-aos="fade-up" data-aos-delay="200">The Services We Provide</p>
+            <p className='text-white-50' data-aos="fade-up" data-aos-delay="200">The Services We Provide</p>
           </Col>
         </Row>
         <Row className="justify-content-center mt-3">

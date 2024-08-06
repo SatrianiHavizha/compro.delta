@@ -29,7 +29,7 @@ const ProgressBar = () => {
 
   return (
     <div id='progress-container' style={{ 
-        height:"7px",
+        height:"5px",
         width:"100%",
         backgroundColor:"transparant",
         position:"fixed"
@@ -37,7 +37,7 @@ const ProgressBar = () => {
         <div className='progress-fill'
         style={{ 
             height:"100%",
-            backgroundColor:"#00a3db",
+            backgroundColor:"#0ab8fb",
             width: `${scrollPercentage}%`,
          }}></div>
     </div>

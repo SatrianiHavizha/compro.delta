@@ -9,7 +9,7 @@ const Home1 = () => {
                     <Col xs={12} className='text-white text-center'>
                         <h1 className="animate__animated animate__fadeInUp">Social Media</h1>
                         <h2 className="animate__animated animate__fadeInUp">Management Service</h2>
-                        <p className='text-white-50 animate__animated animate__fadeInUp animate__delay-1s'>
+                        <p className='text-white-60 animate__animated animate__fadeInUp animate__delay-1s'>
                             Explore the power of AI in social media support
                         </p>
                     </Col>
@@ -22,7 +22,7 @@ const Home1 = () => {
                         <Button 
                             style={{ width: "60%", marginTop: "20px", backgroundColor: "black", fontFamily: "Poppins" }} 
                             className="shadow animate__animated animate__fadeInUp animate__delay-1s"
-                        >
+                        >   
                             Get Started
                         </Button>
                     </Col>

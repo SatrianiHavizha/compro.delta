@@ -25,7 +25,7 @@ function About() {
             <h2 data-aos="fade-up">
               More About Us
             </h2>
-            <p data-aos="fade-up" data-aos-delay="200">
+            <p data-aos="fade-up" data-aos-delay="200" className='pb-5 mb-5'>
               Social AI Solutions Inc. is a cutting-edge technology company specializing in social
               media management services powered by advanced artificial intelligence (AI). The
               company offers a comprehensive suite of tools designed to help businesses of all

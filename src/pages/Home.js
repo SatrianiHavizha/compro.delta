@@ -8,6 +8,7 @@ import Footer from '../components/Footer';
 import Home1 from '../components/Home1';
 
 const Home = () => {
+    
     return (
         <div>
             <NavbarWeb />
